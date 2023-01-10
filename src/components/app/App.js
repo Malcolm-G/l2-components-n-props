@@ -1,6 +1,4 @@
-import logo from '../../logo.svg';
-import CardA from '../card-class/CardA';
-import CardB from '../card-function/CardB';
+
 import './App.css';
 
 // some random data
@@ -19,13 +17,45 @@ const users = [
   }
 ]
 
-function App() {
-  return (
-    <div>
-      {/* <CardA/>
-      <CardB/> */}
-    </div>
-  );
-}
+export const App = ()=><h2>Hello fxn components</h2>
 
-export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import logo from '../../logo.svg';
+// import CardA from '../card-class/CardA';
+// import CardB from '../card-function/CardB';
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <CardA/>
+//       <CardB/> */}
+//     </div>
+//   );
+// }
+
+// export default App;
